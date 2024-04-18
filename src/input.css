@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.h-0.\1{
+    height: 0.100rem;
+}
+
+.side-bar::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #111827;
+}
+
+.side-bar::-webkit-scrollbar
+{
+  width: 8px;
+  background-color: #F5F5F5;
+}
+
+.side-bar::-webkit-scrollbar-thumb
+{
+  background-color: #555555; 
+  border: 2px solid #555555;
+  border-radius: 0.25rem;
+}
